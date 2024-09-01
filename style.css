@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+header{
+    background-image: url(imagenes/negocio-inmobiliaria.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logo{
+    width: 100px;
+    height: auto;
+    float: left;
+    margin-right: 10px; 
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.menu{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+.menu .logo img{
+    width: 150px;
+    height: auto;
+    float: left;
+    margin-right: 10px; 
+}
+.menu .navbar ul{
+    list-style: none;
+}
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: white;
+    display: block;
+}
+.menu .navbar ul li a:hover{
+    color: rgb(110, 106, 90);
+}
+
+#menu{
+    display: none ;
+}
+.menu-icono{
+    width: 25px;
+
+}
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+.header-text{
+    text-align: center;
+    width: 700px;
+
+}
+.header-text h1{
+    color: white;
+    font-size: 55px;
+}
+.header-text p{
+    color: aliceblue;
+    margin-top: 35px;
+}
+.btn-1{
+    display: inline-block;
+    background-color: rgb(110, 106, 90);
+    margin-top: 35px;
+    padding: 15px 25px ;
+    border-radius: 25px;
+    color: aliceblue;
+}
+.btn-1:hover{
+    background-color: rgb(0, 0, 0);
+}
+.services{
+    padding: 50px 0px;
+    text-align: center;
+    color: #464646;
+
+}
+.services h2{
+    font-size: 55px;
+    margin-bottom: 25px;
+}
+.txt-1{
+    font-size:  18px;
+    padding: 0px 200px;
+    margin-bottom: 55px;
+}
+.group-services{
+    display: flex;
+    justify-content: space-between;
+}
+.service{
+    padding: 35px 25px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+.service img{
+    width: 50px;
+    margin-bottom: 25px;
+}
+.service h3{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.service p{
+    font-size: 18px;
+
+}
+.porfolio{
+    padding: 50px 0px;
+    color: #464646;
+    display: flex;
+}
+.porfolio-txt h2{  
+    font-size: 55px;
+    margin-bottom: 35px;
+}
+.porfolio-txt p{
+    font-size: 18px;
+    margin: 0px 135px 55px 0px;
+}
+.imgs{
+    display: flex;
+}
+.imgs img{
+    width: 250px;
+    margin: 0px 10px;
+}
+.bg-sec{
+    background-image: url(imagenes/negocio-inmobiliaria.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 35px 0px;
+}
+.bg-txt{
+   padding: 100px 0px; 
+   text-align: center;
+   color: white;
+
+}
+.bg-txt h2{
+    font-size: 55px;
+    margin-bottom: 35px;
+}
+.bg-txt p{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.numbers{
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-between ;
+    color: #464646;
+}
+.number{
+    text-align: center;
+}
+.number h3{
+    font-size: 100px;
+    margin-bottom: 25px;
+}
+.number p{
+    font-size:  18px;
+}
+ footer{
+    padding: 150px 0px;
+    background-color: #464646;
+ }
+ .ft{
+    display: flex;
+    justify-content: space-between;
+ }
+.enlaces h3{
+    color: aliceblue;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.enlaces li{
+    list-style: none;
+}
+.enlaces a{
+color: aliceblue;
+display: block;
+margin-bottom: 15px;
+}
+.enlaces form{
+    display: flex;
+    flex-direction: column;
+}
+.btm-2{
+    padding: 10px 25px;
+    border: 0;
+
+}
+.btn-3{
+    background-color: aqua;
+    padding: 10px 25px;
+    border: 0;
+    color: aliceblue;
+    margin-top: 15px ;
+}
+
+
+.body-form{
+    
+    padding: 50px 0px;
+    text-align: center;
+    color: #464646;
+    justify-content: center;
+    display: flex;
+}
+form{
+    padding: 100px 55px;
+    box-shadow:  0 0 40px rgb(0, 0, 0 ,0.2);
+    text-align: center;
+    width: 340px ;
+}
+.input-grup{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.body-form h2{
+    color: black;
+    font-size: 35px;
+}
+.body-form label{
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+    margin-bottom:15px ;
+}
+input, textarea{
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: rgb(196, 194, 187);
+    border: 2px solid black;
+    color: black;
+    outline: none;
+
+}
+input::placeholder , textarea::placeholder{
+    color: #464646;
+}
+ .form-txt{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.form-txt a{
+    color: gray;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.btn{
+    font-size: 16px;
+    color: white;
+    border-radius: 25px;
+    background-color: rgb(110, 106, 90,0.7);;
+    box-shadow: 0, 0, 20px rgba(46, 46, 46, 0.4);;
+}
+.btn:hover{
+    background-color: black;
+}
+
+
+
+@media (max-width: 991px){
+    .menu{
+        padding: 20px;
+    }
+    .menu label{
+        display:  initial;
+    }
+    
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: aqua;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        display: none;
+    }
+    .menu .navbar ul li{
+        width: 100%;
+
+    }
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+    header{
+       height: 55vh; 
+    }
+    .header-text{
+       margin-top: 50px;
+       padding: 0px 25px;
+    }
+    .services{
+        padding: 30px;
+    }
+    .txt-1{
+        padding: 0px;
+        margin-bottom: 35px;
+    }
+    .group-services{
+        flex-direction: column;
+    }
+    .service{
+        margin-bottom: 20px;
+    }
+    .porfolio{
+        padding: 0px 30px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .porfolio-txt p{
+        margin:  0px;
+    }
+    .imgs{
+        flex-direction: column;
+        align-items: center;
+    }
+    .imgs img{
+        margin: 15px 0px 0px 0px;
+    }
+    .bg-txt{
+        padding: 30px;
+    }
+    .numbers{
+        flex-direction: column;
+        padding: 30px ;
+    }
+    footer{
+        padding: 30px;
+    }
+    .ft{
+        text-align: center;
+        flex-direction: column;
+    }
+    .enlaces form{
+        align-items: center;
+    }
+    form{
+        padding: 50px 30px;
+        width: 100%;
+    }
+    input{
+        padding: 15px;
+    }
+}
